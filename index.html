@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prince Abdulai_Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./album/profile.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+  <marquee style="color: #020127;" behavior="" direction="">• Web Development (Frontend) | Graphic Design | Application
+    Software | Hardware
+    Maintenance | Computer Networking | Data Analysis with SPSS | Research & Thesis Writing</marquee>
+
+
+  <nav>
+    <!-- Profile Section -->
+    <div class="profile">
+      <img src="./album/profile.jpg" alt="Profile">
+      <span>MY PORTFOLIO</span>
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#project">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hamburger for mobile -->
+    <div class="hamburger" id="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </nav>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+
+  <!-- Main content -->
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-card">
+      <h1>Hello! I'm Prince</h1>
+      <p style="color: black; font-size: 19px;">I enjoy turning complex problems into simple, beautiful and intuitive
+        designs. My job is to build your
+        website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal
+        touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your
+        message and identity in the most creative way.<br>
+        I aim to create transformative solutions that simplify complex problems. I believe in lifelong learning and
+        see technology not just as code, but as a tool to empower communities, inspire collaboration, and shape the
+        future.
+      </p>
+    </div>
+
+    <aside class="profile-box" aria-label="Profile">
+      <img src="./album/prince.jpg" alt="Prince Abdulai — profile photo" loading="lazy" class="pro">
+      <h3>Prince Abdulai</h3>
+      <small class="muted">SEX: Male <br>DOB: 22<sup>nd</sup> November, 1998<br>NATIONALITY: Sierra Leonean</small>
+    </aside>
+  </section>
+
+
+  <!-- ABOUT + SKILLS -->
+  <div class="section" id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p style="color: black; font-size: 19px;">I am a dedicated personality with strong academic grounding and
+        practical experience in application software,
+        web development, graphic design, networking and hardware management. Skilled in both independent and
+        collaborative work, with proven abilities in problem-solving, research, and delivering innovative solutions.
+        Adapt at managing multiple tasks under pressure, with excellent communication and organizational skills.
+        Currently, with a focus on developing expertise in frontend web development, graphic design, data analysis,
+        and research-based thesis writing.</p>
+
+      <div>
+        <h3>Brand</h3>
+        <p style="color: blue;">PRINCE <br>MINDSET</p>
+
+      </div>
+    </div>
+
+    <div class="card" id="skills">
+      <h2>Skills & Abilities</h2>
+      <div>
+        <p style="color: black; font-size: 19px;">• Strong proficiency in <b>Application Software</b> and productivity
+          tools.<br>
+          • <b>Hardware Maintenance:</b> Skilled in Hardware A+ (installation, troubleshooting, and maintenance).<br>
+          • <b>Networking:</b> Knowledge of computer networks and configurations (LAN/WAN).<br>
+          • <b>Web Development (Frontend):</b> HTML, CSS, JavaScript with ability to design responsive user
+          interfaces.<br>
+          • <b>Graphic Design:</b> Skilled in Adobe Photoshop.<br>
+          • <b>Statistical Analysis:</b> Knowledge of SPSS for data analysis and interpretation.<br>
+          • <b>Research and Thesis Writing:</b> Ability to structure, analyze, and present academic reports
+          effectively.<br>
+          • Excellent teamwork, adaptability, and time management.
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERTISE + DUTIES -->
+  <div class="section" id="expertise">
+    <div class="card">
+      <h2>Areas of Expertise</h2>
+      <div class="expertise-grid">
+        <div class="expert">
+          <h4>Responsive Design</h4>
+          <p>Building interfaces that look great on any device.</p>
+        </div>
+        <div class="expert">
+          <h4>Application Software</h4>
+          <p>Strong proficiency in Application Software and productivity tools.</p>
+        </div>
+        <div class="expert">
+          <h4>User Experience</h4>
+          <p>Applying HCI principles to improve usability and accessibility.</p>
+        </div>
+        <div class="expert">
+          <h4>Data Analysis with SPSS</h4>
+          <p>Knowledge of SPSS for data analysis and interpretation.</p>
+        </div>
+        <div class="expert">
+          <h4>Web Development (Frontend)</h4>
+          <p>HTML, CSS, JavaScript with ability to design responsive user interfaces.</p>
+        </div>
+        <div class="expert">
+          <h4>Hardware Maintenance</h4>
+          <p>Skilled in Hardware A+ (installation, troubleshooting, and maintenance).</p>
+        </div>
+        <div class="expert">
+          <h4>Computer Networking</h4>
+          <p>Knowledge of computer networks and configurations (LAN/WAN).</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="duties">
+      <h2>Duties</h2>
+      <p>Responsibilities I've performed on projects and roles:</p>
+      <ul class="list" aria-label="Duties">
+        <li>Designing and maintaining websites for organizations.</li>
+        <li>Installed and configured operating systems and applications.</li>
+        <li>Providing IT/technical support and troubleshooting.</li>
+        <li>Collaborating on group projects and leading small teams.</li>
+        <li>Preparing reports, technical documentation and presentations.</li>
+        <li>Contributed to minor web updates and graphic design tasks.</li>
+        <li>Supported the networking team in maintaining LAN/WAN systems.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- COMPETENCE + GALLERY -->
+  <div class="section" id="competence">
+    <div class="card">
+      <h2>Key Skills & Competence</h2>
+      <ul class="list" aria-label="Key skills">
+        <li>Problem-solving and analytical thinking.</li>
+        <li>Effective communication and presentation skills.</li>
+        <li>Adaptability to new technologies and tools.</li>
+        <li>Time management, planning and attention to detail.</li>
+        <li>Ability to work independently and in teams.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Gallery</h2>
+      <p class="muted">Tap or click an image to preview.</p>
+      <div class="gallery" id="gallery">
+        <img src="./album/ee.jpg" alt="Project image 1" loading="lazy">
+        <img src="./album/ff.jpg" alt="Project image 2" loading="lazy">
+        <img src="./album/hh.jpg" alt="Project image 3" loading="lazy">
+        <img src="./album/kk.jpg" alt="Project image 4" loading="lazy">
+        <img src="./album/dd.jpg" alt="Project image 5" loading="lazy">
+        <img src="./album/aa.jpg" alt="Project image 6" loading="lazy">
+        <img src="./album/bb.jpg" alt="Project image 7" loading="lazy">
+        <img src="./album/cc.jpg" alt="Project image 8" loading="lazy">
+        <img src="./album/ll.jpg" alt="Project image 7" loading="lazy">
+        <img src="./album/ii.jpg" alt="Project image 8" loading="lazy">
+        <img src="./album/mm.jpg" alt="Project image 7" loading="lazy">
+        <img src="./album/nn.jpg" alt="Project image 8" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="resume" class="resume-container">
+    <!-- Education -->
+    <section class="education">
+      <h1>Education</h1>
+      <div class="edu-item">
+        <h3>B.Sc. (On Studies) - Computer Science</h3>
+        <span>Every Nation College | 2023 - Present</span>
+      </div>
+
+      <div class="edu-item">
+        <h3>Certificate</h3>
+        <span>Sabiteck Limited Bo | 2025</span>
+        <p>Web Development (Frontend), Graphic Design, Statistical Package for the Social Sciences (SPSS) & thesis
+          Writing
+        </p>
+      </div>
+
+      <div class="edu-item">
+        <h3>Diploma in Networking</h3>
+        <span>Africa Information Technology Holdings Bo | 2023 - 2024</span>
+        <p>Knowledge of computer networks and configurations (LAN/WAN)</p>
+      </div>
+
+      <div class="edu-item">
+        <h3>Diploma in Hardware A+</h3>
+        <span>Africa Information Technology Holdings Bo | 2022 - 2023</span>
+        <p>Installation, troubleshooting, and maintenance.</p>
+      </div>
+
+      <div class="edu-item">
+        <h3>Private WASSCE</h3>
+        <span>West Africa Examination Council (WAEC) | 2021</span>
+      </div>
+
+      <div class="edu-item">
+        <h3>Diploma in Application Software</h3>
+        <span>Africa Information Technology Holdings Bo | 2017 - 2018</span>
+        <p>Training in application software, web tools, Microsoft Office, and IT fundamentals.</p>
+      </div>
+
+      <div class="edu-item">
+        <h3>WASSCE</h3>
+        <span>Abdul Tawab Haikal Academy Bo | 2015 - 2016</span>
+      </div>
+
+      <div class="edu-item">
+        <h3>SSS 1,2 & 3</h3>
+        <span>New Harvest Academy Sami Bo | 2012 - 2015</span>
+      </div>
+
+      <div class="edu-item">
+        <h3>BECE</h3>
+        <span>Centenary United Methodist School Bo | 2009 - 2012</span>
+      </div>
+
+      <div class="edu-item">
+        <h3>NPSE</h3>
+        <span>Heine Memorial United Methodist school Bo| 2004 - 2009</span>
+      </div>
+    </section>
+
+
+
+    <!-- Experience -->
+    <section class="experience">
+      <h1 style="color: aliceblue;">Experience</h1>
+      <div class="exp-item">
+        <h3>Teaching </h3>
+        <span>Zenith International Academy | 2020 - 2025</span>
+        <p style="color: aliceblue;">Provided teaching service on Government and Health Science.
+        </p>
+      </div>
+      <div class="exp-item">
+        <h3>IT Support </h3>
+        <span>Zenith International Academy | 2020 - 2025</span>
+        <p style="color: aliceblue;">Provided networking and hardware support, installed software tools and assisted
+          in
+          system troubleshooting.
+        </p>
+      </div>
+      <div class="exp-item">
+        <h3>Web Development Project</h3>
+        <span>Freelance | 2025</span>
+        <p style="color: aliceblue;">Designed responsive websites using HTML, CSS, and JavaScript. Integrated modern
+          UI/UX practices.</p>
+      </div>
+      <div class="exp-item">
+        <h3>Graphic project</h3>
+        <span>Zenith International Academy | 2020 - 2025</span>
+        <p style="color: aliceblue;">Designed professional graphics with passion and creativity
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+      <h1 style="color: aliceblue;">Technical Skills</h1>
+      <div class="skills-grid">
+
+        <div class="skill">
+          <img src="./skills/html.jpg" alt="HTML" class="logo">
+          <span>HTML</span>
+        </div>
+        <div class="skill">
+          <img src="./skills/css.jpg" alt="CSS" class="logo">
+          <span>CSS</span>
+        </div>
+        <div class="skill">
+          <img src="./skills/js.jpg" alt="JavaScript" class="logo">
+          <span>JavaScript</span>
+        </div>
+        <div class="skill">
+          <img src="./skills/ps.jpg" alt="photoshop" class="logo">
+          <span>Photoshop</span>
+        </div>
+        <div class="skill">
+          <img src="./skills/Microsoft Office 2010 Box.jpg" alt="ms office" class="logo">
+          <span>MS Office</span>
+        </div>
+        <div class="skill">
+          <img src="./skills/networking.jpg" alt="networking" class="logo">
+          <span>Networking</span>
+        </div>
+        <div class="skill">
+          <img src="./skills/hardware.jpg" alt="hardware" class="logo">
+          <span>Hardware</span>
+        </div>
+        <div class="skill">
+          <img src="./skills/spss.png" alt="SPSS" class="logo">
+          <span>IBM SPSS</span>
+        </div>
+        <div class="skill">
+          <img src="./skills/vscode.jpg" alt="Vscode" class="logo">
+          <span>VS Code</span>
+        </div>
+        <div class="skill">
+          <img src="./skills/ppro176x168.png" alt="Premiere Pro" class="logo">
+          <span>Premiere Pro</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <!-- Projects -->
+  <div id="project" class="projet">
+    <p style="color: aliceblue; font-size: 50px; text-align: center;"><b>PROJECTS</b></p>
+  </div>
+  <section class="projects">
+    <div class="projects-grid">
+      <div class="project-card">
+        <h4>Grade Checker Calculator</h4>
+        <p>Built a responsive grade checker calculator mobile app for Every Nation College with HTML, CSS and
+          JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h4>Data Analysis</h4>
+        <p>Analyzed records using SPSS for reporting and decision-making.</p>
+      </div>
+      <div class="project-card">
+        <h4>Portfolio Website</h4>
+        <p>Developed a personal portfolio using responsive web design.</p>
+      </div>
+      <div class="project-card">
+        <h4>Graphic Design</h4>
+        <p>Designed professional graphics with passion and creativity that innovate digital solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETENCE + GALLERY -->
+  <div class="section" id="competence">
+
+    <div class="card">
+      <h3>Gallery — Selected Project</h3>
+      <p class="muted">Tap or click an image to preview.</p>
+      <div class="gallery" id="gallery">
+        <img src="./project/calculator.jpg" alt="Project image 1" loading="lazy">
+        <img src="./project/computer science flyer.jpg" alt="Project image 2" loading="lazy">
+        <img src="./project/BILBOARD PROJECT.jpg" alt="Project image 3" loading="lazy">
+        <img src="./project/PRAYER QUAKE.jpg" alt="Project image 4" loading="lazy">
+        <img src="./project/NHAOSA.jpg" alt="Project image 5" loading="lazy">
+        <img src="./project/LANDING PORTFOLIO PAGE.jpg" alt="Project image 6" loading="lazy">
+        <img src="./project/Ghetto Youths flyer.jpg" alt="Project image 7" loading="lazy">
+        <img src="./project/dissert flyer.jpg" alt="Project image 8" loading="lazy">
+
+      </div>
+
+    </div>
+
+    <div class="card">
+      <h3>Gallery — Selected Project</h3>
+      <p class="muted">Tap or click an image to preview.</p>
+      <div class="gallery" id="gallery">
+        <img src="./project/SALON ASSIGNMENT.jpg" alt="Project image 8" loading="lazy">
+        <img src="./project/11.jpg" alt="Project image 8" loading="lazy">
+        <img src="./project/22.jpg" alt="Project image 8" loading="lazy">
+        <img src="./project/33.jpg" alt="Project image 8" loading="lazy">
+        <img src="./publication/GOVT. COVER PAGE.jpg" alt="Project image 8" loading="lazy">
+        <img src="./publication/HSCI. COVER PAGE.jpg" alt="Project image 8" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+
+  <diV>
+    <p class="addr">Location: Southern-Bo, Sierra Leone.</p>
+    <a href="location"><iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.668451800295!2d-11.72882912594356!3d7.929654305229572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf0615739a0a62ff%3A0xf074c703742f8897!2sBo!5e0!3m2!1sen!2ssl!4v1758370974222!5m2!1sen!2ssl"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+  </diV>
+
+
+  <footer id="contact">
+    <div class="footer-container">
+      <!-- Brand / About -->
+      <div class="footer-about">
+        <p>My Portfolio is a showcase of creativity, passion, and professionalism. Building responsive and user-friendly
+          solutions for the future.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-links">
+        <h3 style="color: #ff9800;">Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="footer-contact">
+        <h3 style="color: #ff9800;">Contact</h3>
+        <div class="address">
+          <a href="mailto:princeabdulai98@.com"><img src="./icons/email-removebg-preview.png" alt="Email"></a>
+          <p class="addr">princeabdulai@mail.com</p>
+          <a href="https://wa.me/23279663040" target="_blank"><img src="./icons/whatsApp-removebg-preview.png"
+              alt="WhatsApp"></a>
+          <p class="addr">WhatsApp</p>
+
+        </div>
+      </div>
+
+      <!-- Social Media -->
+      <div class="footer-social">
+        <h3 style="color: #ff9800;">Follow Me</h3>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=61551938561213" target="_blank"><img
+              src="./icons/facebook-removebg-preview.png" alt="Facebook"></a>
+          <a href="https://www.youtube.com/@princeabdulai3560" target="_blank"><img
+              src="./icons/youtube-removebg-preview.png" alt="youtube"></a>
+          <a href="https://wa.me/23279663040" target="_blank"><img src="./icons/whatsApp-removebg-preview.png"
+              alt="WhatsApp"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+
+  </main>
+  <!-- Image modal -->
+  <div class="modal" id="imgModal" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <img src="" alt="Preview">
+  </div>
+
+  <script>
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', function (e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          // close mobile menu if open
+          mobileMenu.classList.remove('active');
+          hambToggle(false);
+        }
+      });
+    });
+
+
+    // Gallery modal preview
+    const modal = document.getElementById('imgModal');
+    const modalImg = modal.querySelector('img');
+    document.querySelectorAll('#gallery img').forEach(img => {
+      img.addEventListener('click', () => {
+        modal.classList.add('active');
+        modal.setAttribute('aria-hidden', 'false');
+        modalImg.src = img.src;
+        modalImg.alt = img.alt || 'Preview';
+      });
+    });
+    modal.addEventListener('click', () => { modal.classList.remove('active'); modal.setAttribute('aria-hidden', 'true'); modalImg.src = ''; });
+
+  </script>
