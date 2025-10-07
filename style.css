@@ -91,7 +91,7 @@
     .nav-links {
       position: absolute;
       top: 70px;
-      right: -100%;
+      right: 100%;
       flex-direction: column;
       background: #16213e;
       width: 200px;
@@ -647,4 +647,5 @@
 
   a.smooth {
     scroll-behavior: smooth
+
   }
